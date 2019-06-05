@@ -1,3 +1,5 @@
+// CODE FOR BONUS IS TAKEN DIRECTLY FROM EXAMPLE PROVIDED. REVIEWED IN DETAIL, BUT NOT MY WORK
+
 function buildGauge(wfreq) {
   // Enter the washing frequency between 0 and 180
   let level = parseFloat(wfreq) * 20;
@@ -87,6 +89,8 @@ function buildGauge(wfreq) {
   Plotly.newPlot(GAUGE, data, layout);
 
 }
+
+// END OF DUPLICATED BONUS CODE
 
 
 function buildMetadata(sample) {
